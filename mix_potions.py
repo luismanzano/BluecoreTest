@@ -5,8 +5,6 @@ def mix_potions(potions):
     ingredients = {}
     for potion in potions:
         volume += potion["volume"]
-
-    for i, potion in enumerate(potions):
         for ingredient in potion["ingredients"]:
             if ingredient in ingredients:
                 ingredients[ingredient] += potion['ingredients'][ingredient] * potion["volume"]

@@ -1,4 +1,4 @@
-from datetime import timedelta
+#RACE WINNER CHALLENGE
 
 def race_winner(input):
     best_time = float("inf")
